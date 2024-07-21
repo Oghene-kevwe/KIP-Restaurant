@@ -1,6 +1,7 @@
 # Restaurant
 
 Application for creating different Restaurants and dishes
+
 Features:
 - Clean architeture design
 - EF Core
