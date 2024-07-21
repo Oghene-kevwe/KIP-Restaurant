@@ -1,0 +1,32 @@
+@Restaurant.Api_HostAddress = https://localhost:44334
+
+
+GET {{Restaurant.Api_HostAddress}}/api/restaurants
+
+###
+
+POST {{Restaurant.Api_HostAddress}}/api/restaurants
+Content-Type: application/json
+
+{
+  //CreateRestaurantCommand
+}
+
+###
+
+GET {{Restaurant.Api_HostAddress}}/api/restaurants/80
+
+###
+
+DELETE {{Restaurant.Api_HostAddress}}/api/restaurants/{id}
+
+###
+
+PATCH {{Restaurant.Api_HostAddress}}/api/restaurants/{id}
+Content-Type: application/json
+
+{
+  //EditRestaurantCommand
+}
+
+###
